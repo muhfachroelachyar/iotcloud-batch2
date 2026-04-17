@@ -35,7 +35,7 @@ window.updateKelembapan = function(val) {
     bar.style.width = pct + '%';
     
     // Perbaikan arah jarum: 180° (kiri, 0%) → 0° (kanan, 100%) melalui bawah
-    var angle = 180 - (pct / 5) * 180;   // derajat
+    var angle = 180 - (pct / 65) * 180;   // derajat
     var rad = angle * Math.PI / 180;
     var cx = 65, cy = 65;      // titik pusat
     var r = 42;                // panjang jarum
