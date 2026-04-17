@@ -1,5 +1,5 @@
 // MQTT Configuration
-const brokerUrl = 'wss://broker.emqx.io:8084mqtt';
+const brokerUrl = 'wss://broker.emqx.io:8084/mqtt';
 const topicSuhu = "tes/1892121/topic/suhu";
 const topicLampu = "tes/1892121/topic/lampu";
 const topicKelembapan = "tes/1892121/topic/kelembapan";
